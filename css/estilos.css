@@ -55,21 +55,54 @@ footer {
     transform: scale(1.3);
     transition: 1s; }
 
-.container__preguntas {
+/* Main de pagina preguntas */
+main .container__preguntas {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 5px;
+  /* background-image: url(../assets/img-paginas/labrador.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; */ }
+  main .container__preguntas ul li {
+    list-style-type: disc;
+    font-size: 1.1em;
+    padding-top: 4px; }
+    main .container__preguntas ul li a {
+      color: black; }
+
+main .container__respuestas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 8px; }
-  .container__preguntas h3 {
+  main .container__respuestas h3 {
     text-align: center;
     font-size: 1.2em; }
     @media only screen and (min-width: 400px) {
-      .container__preguntas h3 {
+      main .container__respuestas h3 {
         font-size: 1.5em; } }
-  .container__preguntas p {
+  main .container__respuestas p {
+    margin-top: 10px;
+    padding: 5px;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 1px; }
+  main .container__respuestas .mas-dudas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main .container__respuestas .mas-dudas .boton a {
+      color: black; }
+
+main .container__preguntas-foto {
+  object-fit: contain;
+  object-position: center; }
+  main .container__preguntas-foto div {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
 
 /* Estilos generales */
 .titulosPrincipales {
