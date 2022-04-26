@@ -1,4 +1,41 @@
-/* imports de partials */
+/* Grilla general */
+body {
+  height: 100vh;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 170px 1fr auto;
+  grid-template-areas: "header" "main" "footer"; }
+  body header {
+    grid-area: header; }
+  body main {
+    grid-area: main; }
+  body footer {
+    grid-area: footer; }
 
-/* font-family: 'Montserrat',
-sans-serif; */
+/* Header */
+.navbar-brand > img {
+  width: 150px; }
+
+.fondoNav {
+  background-color: #c6af90; }
+
+/* Footer */
+footer {
+  background-color: #c6af90;
+  text-align: center;
+  border-top: 3px solid rgba(109, 105, 105, 0.801); }
+  footer p {
+    word-spacing: 1px;
+    letter-spacing: 1px; }
+    @media only screen and (max-width: 515px) {
+      footer p {
+        font-size: 14px; } }
+    @media only screen and (max-width: 451px) {
+      footer p {
+        font-size: 12px; } }
+    @media only screen and (max-width: 387px) {
+      footer p {
+        font-size: 10px;
+        word-spacing: 0px;
+        letter-spacing: 0px; } }

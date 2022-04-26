@@ -1,0 +1,21 @@
+/* Footer */
+footer{
+    background-color: $marron-claro;
+    text-align: center;
+    border-top: 3px solid rgba(109, 105, 105, 0.801);
+    p {
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        @media only screen and (max-width: 515px) {
+            font-size: 14px;
+        }
+        @media only screen and (max-width: 451px) {
+            font-size: 12px;
+        }
+        @media only screen and (max-width: 387px) {
+            font-size: 10px;
+            word-spacing: 0px;
+            letter-spacing: 0px;
+        }
+    }
+}
