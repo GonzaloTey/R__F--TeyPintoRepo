@@ -2,6 +2,8 @@
 @import "variables";
 @import "header";
 @import "footer";
+@import "contacto";
+@import "preguntas";
 
 /* Estilos generales */
 body{
@@ -9,6 +11,7 @@ body{
 }
 .titulosPrincipales {
     background-color: $marron-claro;
+    color: white;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -16,4 +19,7 @@ body{
         font-size: .6em;
     }
     
+}
+.boton {
+    background-color: $marron-claro;
 }
