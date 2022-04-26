@@ -50,29 +50,31 @@
     </header>
     <!-- main -->
     <main>
-        <h1>Medios de contacto</h1>
-        <section class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-8 col-lg-7 col-xs-6">
-                    <h2>Via Web</h2>
-                    <form action="archivo.php" method="post" enctype="application/x-www-form-urlencoded">
+        <div class="titulosPrincipales">
+            <h1>Medios de contacto</h1>
+        </div>
+        <section class="container ">
+            <div class="row d-flex justify-content-center">
+                <div class="col-xs-12 col-sm-10 col-md-7 col-lg-5 col-xl-5 col-xxl-4">
+                    <h2 class="text-center">Via Web</h2>
+                    <form action="archivo.php" method="post" enctype="application/x-www-form-urlencoded" class="border border-secondary">
                         <fieldset>
-                            <legend>Ingresa tus datos</legend>
+                            <legend class="text-center">Ingresa tus datos</legend>
                             <div>
-                                <label for="name">Nombre<strong><abbr title="obligatorio" aria-label="obligatorio">*</abbr></strong></label>
-                                <input type="text" name="nombre" id="name" placeholder="Nombre" maxlength="20" required class="form-control-sm">
+                                <label for="name">Nombre<strong><abbr title="obligatorio" aria-label="obligatorio" class="text-danger">*</abbr></strong></label>
+                                <input type="text" name="nombre" id="name" placeholder="Nombre" maxlength="20" required class="form-control border-2 mb-1">
                             </div>
                             <div>
-                                <label for="email">Email <strong><abbr title="obligatorio" aria-label="obligatorio">*</abbr></strong></label>
-                                <input type="email" name="mail" id="email" placeholder="nombre@ejemplo.com" required class="form-control-sm">
+                                <label for="email">Email <strong><abbr title="obligatorio" aria-label="obligatorio" class="text-danger">*</abbr></strong></label>
+                                <input type="email" name="mail" id="email" placeholder="nombre@ejemplo.com" required class="form-control border-2 mb-1">
                             </div>
                             <div>
                                 <label for="tel">Telefono (Opcional)</label>
-                                <input type="number" name="telefono" id="tel" class="form-control-sm">
+                                <input type="number" name="telefono" id="tel" class="form-control border-2 mb-1">
                             </div>
                             <div>
                                 <label for="pais">Pais de origen</label>
-                                <select name="pais" id="pais">
+                                <select name="pais" id="pais" class="form-control border-2">
                                     <option value="" hiden selected>Elije tu pais</option>
                                     <option value="Ar">Argentina</option>
                                     <option value="Br">Brasil</option>
@@ -86,18 +88,18 @@
                                     <option value="Otr">Otro</option>
                                 </select>
                             </div>
-                            <div>
-                                <textarea name="comentario" id="comentario" cols="30" rows="5" required
-                                placeholder="Dejame tu comentario &#128525" style="resize: none;"></textarea>
+                            <div class="text-center">
+                                <textarea name="comentario" id="comentario" cols="25" rows="5" required
+                                placeholder="Dejame tu comentario &#128525" style="resize: none;" class="mt-3 mb-1"></textarea>
                             </div>
                             <div>
-                                <label for="notificar">Te interesaría recibir novedades?</label>
+                                <label for="notificar">Querès recibir novedades?</label>
                                 <input type="radio" name="notificaciones" id="notificar" value="si">Si
                                 <input type="radio" name="notificaciones" id="notificar" value="no">No
                             </div>
                             <div>
-                                <button type="submit" class="btn btn-primary">Enviar</button>
-                                <button type="reset" class="btn btn-primary">Borrar</button>
+                                <button type="submit" class="btn btn-success form-control mt-2">Enviar</button>
+                                <button type="reset" class="btn btn-primary form-control mt-2">Borrar</button>
                             </div>
                         </fieldset>                
                     </form>

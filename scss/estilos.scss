@@ -2,3 +2,18 @@
 @import "variables";
 @import "header";
 @import "footer";
+
+/* Estilos generales */
+body{
+    
+}
+.titulosPrincipales {
+    background-color: $marron-claro;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    @media only screen and (max-width: 367px) {
+        font-size: .6em;
+    }
+    
+}

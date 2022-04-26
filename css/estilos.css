@@ -39,3 +39,13 @@ footer {
         font-size: 10px;
         word-spacing: 0px;
         letter-spacing: 0px; } }
+
+/* Estilos generales */
+.titulosPrincipales {
+  background-color: #c6af90;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase; }
+  @media only screen and (max-width: 367px) {
+    .titulosPrincipales {
+      font-size: .6em; } }
