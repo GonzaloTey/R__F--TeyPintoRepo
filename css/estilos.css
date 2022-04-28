@@ -153,8 +153,6 @@ main .container__preguntas-foto {
       align-content: center;
       justify-content: center;
       padding: 10px; }
-      .tips .container__tips .tips__fotoIdeal img {
-        max-width: 400px; }
     @media only screen and (min-width: 700px) {
       .tips .container__tips {
         grid-template-columns: repeat(5, 1fr);
