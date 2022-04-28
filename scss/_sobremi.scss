@@ -2,8 +2,28 @@
 .sobreMi__container {
     display: flex;
     flex-direction: column;
-    @media only screen and (min-width: 756px) {
-        flex-direction: row;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+    .sobreMi__texto {
+        padding: 2em;
+        letter-spacing: 1.8px;
     }
-    
+    .sobreMi__foto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2em;
+        max-width: 850px;        
+        img {
+            object-fit: contain;            
+        }
+    }
+    @media only screen and (min-width: 850px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        margin-top: 150px;
+    }
+
 }
