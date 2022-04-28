@@ -1,0 +1,9 @@
+/* Main sobre mi */
+.sobreMi__container {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width: 756px) {
+        flex-direction: row;
+    }
+    
+}

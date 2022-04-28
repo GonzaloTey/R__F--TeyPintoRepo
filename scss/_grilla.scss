@@ -1,8 +1,9 @@
 /* Grilla general */
-body {
-    height: 100vh;
+/* body {
+    min-height: 100vh;
     display: grid;
     gap: 3px;
+    
     grid-template-columns: 1fr;
     grid-template-rows: 170px 1fr auto;
     grid-template-areas: 
@@ -13,10 +14,40 @@ body {
         grid-area: header;
     }
     main {
-        grid-area: main;
+        grid-area: main;        
     }
     footer {
         grid-area: footer;
     }
 
+} */
+
+body {
+    min-height: 100vh;
+    display: grid;
+    gap: 3px;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 40px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+    header {
+        grid-area: header;
+        position: relative;
+        z-index: 1000;
+        
+    }
+
+    main {
+        grid-area: main;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        grid-area: footer;        
+    }
 }

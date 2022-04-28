@@ -5,14 +5,14 @@
 @import "contacto";
 @import "preguntas";
 @import "tips";
+@import "sobremi";
 
 /* Estilos generales */
-body{
-    
-}
+
 .titulosPrincipales {
     background-color: $marron-claro;
     color: white;
+    position: relative;
     display: flex;
     justify-content: center;
     text-transform: uppercase;

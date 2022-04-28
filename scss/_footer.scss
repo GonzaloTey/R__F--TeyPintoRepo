@@ -1,9 +1,11 @@
 /* Footer */
 footer{
+    height: 100%;
     background-color: $marron-claro;
     text-align: center;
     border-top: 3px solid rgba(109, 105, 105, 0.801);
     p {
+        height: 100%;
         word-spacing: 1px;
         letter-spacing: 1px;
         @media only screen and (max-width: 515px) {

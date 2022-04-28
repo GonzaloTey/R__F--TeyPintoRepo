@@ -50,67 +50,69 @@
     </header>
     <!-- Main -->
     <main>
-        <div class="titulosPrincipales">
-            <h1>Tips</h1>
+        <div class="tips">
+            <div class="titulosPrincipales">
+                <h1>Tips</h1>
+            </div>
+            <section class="container__tips">
+                <div class="tips__titulo">
+                    <h2>La imagen de referencia</h2>
+                    <p>Para pintar cada retrato, utilizo una imagen de referencia
+                    necesitaré que me envíes algunas fotos de buena calidad para utilizar de referencia. ¡Elegir las fotos correctas para
+                    trabajar es la clave para que el resultado del cuadro sea el más lindo posible, y que logre reflejar la personalidad y
+                    esencia de tu mascota!</p>
+                </div>
+                <figure class="tips__fotoIdeal">
+                    <img class="fotoIdeal" src="../assets/img-paginas/tip-bien.png" alt="FotoPerroIdeal">
+                    <figcaption>La foto ideal</figcaption>
+                </figure>
+                <div id="carouselExampleCaptions" class="carousel slide mb-3 carruselGon" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner tips__carrusel">
+                        <div class="carousel-item active">
+                            <img src="../assets/img-paginas/tips-19.png" class="d-block w-100" alt="FotoPerroLejos">
+                            <div class="carousel-caption d-md-block">
+                                <h5>Tip 1</h5>
+                                <p>La distancia: Debe ser razonable para poder ver mejor sus rasgos. Mientras mejor se vean los detalles, más realista será
+                                el resultado del retrato. Si al hacer zoom la imagen se ve borrosa, será muy difícil trabajar con ella.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img-paginas/tips-20.png" class="d-block w-100" alt="FotoPerroMalAngulo">
+                            <div class="carousel-caption d-md-block">
+                                <h5>Tip 2</h5>
+                                <p>El ángulo: La postura de la mascota debe ser natural, relajada, de frente o de perfil.
+                                En general, las mejores fotos son las que fueron tomadas estando al nivel de tu mascota </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img-paginas/tips-21.png" class="d-block w-100" alt="FotoPerroMalaLuz">
+                            <div class="carousel-caption d-md-block">
+                                <h5>Tip 3</h5>
+                                <p>La iluminación: Las fotos que tienen demasiada luz o que son demasiado oscuras no
+                                permiten ver bien los detalles. Recomiendo tomar las fotos con luz
+                                natural, al aire libre o junto a una ventana, para ver los colores reales del pelaje.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
         </div>
-        <section class="container__tips">
-            <div class="tips__titulo">
-                <h2>La imagen de referencia</h2>
-                <p>Para pintar cada retrato, utilizo una imagen de referencia
-                necesitaré que me envíes algunas fotos de buena calidad para utilizar de referencia. ¡Elegir las fotos correctas para
-                trabajar es la clave para que el resultado del cuadro sea el más lindo posible, y que logre reflejar la personalidad y
-                esencia de tu mascota!</p>
-            </div>
-            <figure class="tips__fotoIdeal">
-                <img class="fotoIdeal" src="../assets/img-paginas/tip-bien.png" alt="FotoPerroIdeal">
-                <figcaption>La foto ideal</figcaption>
-            </figure>
-            <div id="carouselExampleCaptions" class="carousel slide carruselGon" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner tips__carrusel">
-                    <div class="carousel-item active">
-                        <img src="../assets/img-paginas/tips-19.png" class="d-block w-100" alt="FotoPerroLejos">
-                        <div class="carousel-caption d-md-block">
-                            <h5>Tip 1</h5>
-                            <p>La distancia: Debe ser razonable para poder ver mejor sus rasgos. Mientras mejor se vean los detalles, más realista será
-                            el resultado del retrato. Si al hacer zoom la imagen se ve borrosa, será muy difícil trabajar con ella.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/img-paginas/tips-20.png" class="d-block w-100" alt="FotoPerroMalAngulo">
-                        <div class="carousel-caption d-md-block">
-                            <h5>Tip 2</h5>
-                            <p>El ángulo: La postura de la mascota debe ser natural, relajada, de frente o de perfil.
-                            En general, las mejores fotos son las que fueron tomadas estando al nivel de tu mascota </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/img-paginas/tips-21.png" class="d-block w-100" alt="FotoPerroMalaLuz">
-                        <div class="carousel-caption d-md-block">
-                            <h5>Tip 3</h5>
-                            <p>La iluminación: Las fotos que tienen demasiada luz o que son demasiado oscuras no
-                            permiten ver bien los detalles. Recomiendo tomar las fotos con luz
-                            natural, al aire libre o junto a una ventana, para ver los colores reales del pelaje.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
     </main>
     <!-- Footer -->
     <footer>
