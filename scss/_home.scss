@@ -56,6 +56,23 @@
             width: 50%;
             margin: 0 auto;
         }
+        @media only screen and (min-width: 777px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas: 
+            "texto foto"
+            "boton foto";
+            .retrato__texto {
+                grid-area: texto;
+            }
+            figure {
+                grid-area: foto;
+            }
+            .sabermas {
+                grid-area: boton;
+            }
+        }
     }
     .container__ilustracion {
         display: flex;
@@ -80,6 +97,23 @@
             width: 50%;
             margin: 0 auto;
         }
+        @media only screen and (min-width: 777px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas:
+                "foto texto"
+                "foto boton";        
+            .ilustracion__texto {
+                grid-area: texto;
+            }        
+            figure {
+                grid-area: foto;
+            }        
+            .explorar {
+                grid-area: boton;
+            }
+        }
     }
     .container__cuaderno {
         display: flex;
@@ -103,6 +137,23 @@
         .sabermas {
             width: 50%;
             margin: 0 auto;
+        }
+        @media only screen and (min-width: 777px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas:
+                "texto foto"
+                "boton foto";        
+            .cuaderno__texto {
+                grid-area: texto;
+            }        
+            figure {
+                grid-area: foto;
+            }        
+            .sabermas {
+                grid-area: boton;
+            }
         }
     }
 }
