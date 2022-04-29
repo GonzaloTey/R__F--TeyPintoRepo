@@ -17,8 +17,7 @@
         text-align: center;        
         position: relative;
         a {
-            img {
-                
+            img {                
                 animation-name: aumento;
                 animation-duration: 2s;
                 animation-iteration-count: infinite;
@@ -29,8 +28,7 @@
                     width: 0%;
                 }
                 100% {
-                    width: 20%;
-                    
+                    width: 20%;                    
                 }
             }            
         }
