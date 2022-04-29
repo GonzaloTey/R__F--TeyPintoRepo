@@ -69,6 +69,82 @@ footer {
         word-spacing: 0px;
         letter-spacing: 0px; } }
 
+/* home */
+/* .container__presentacion {
+    height: 100vh;
+    text-align: center;
+} */
+.main-contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative; }
+  .main-contenedor .container__presentacion {
+    height: 62vh;
+    padding: .3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative; }
+  .main-contenedor .container__retrato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; }
+    .main-contenedor .container__retrato .retrato__texto {
+      padding: 0% 10px; }
+    .main-contenedor .container__retrato figure {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center; }
+      .main-contenedor .container__retrato figure img {
+        object-fit: contain;
+        max-width: 90%; }
+    .main-contenedor .container__retrato .sabermas {
+      width: 50%;
+      margin: 0 auto; }
+  .main-contenedor .container__ilustracion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; }
+    .main-contenedor .container__ilustracion .ilustracion__texto {
+      padding: 0% 10px; }
+    .main-contenedor .container__ilustracion figure {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center; }
+      .main-contenedor .container__ilustracion figure img {
+        object-fit: contain;
+        max-width: 90%; }
+    .main-contenedor .container__ilustracion .explorar {
+      width: 50%;
+      margin: 0 auto; }
+  .main-contenedor .container__cuaderno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; }
+    .main-contenedor .container__cuaderno .cuaderno__texto {
+      padding: 0% 10px; }
+    .main-contenedor .container__cuaderno figure {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center; }
+      .main-contenedor .container__cuaderno figure img {
+        object-fit: contain;
+        max-width: 90%; }
+    .main-contenedor .container__cuaderno .sabermas {
+      width: 50%;
+      margin: 0 auto; }
+
 /* main contacto */
 .redes .whats {
   font-size: 4em;

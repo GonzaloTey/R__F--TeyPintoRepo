@@ -2,13 +2,16 @@
 @import "variables";
 @import "header";
 @import "footer";
+@import "home";
 @import "contacto";
 @import "preguntas";
 @import "tips";
 @import "sobremi";
 
 /* Estilos generales */
-
+body {
+    
+}
 .titulosPrincipales {
     background-color: $marron-claro;
     color: white;
@@ -19,6 +22,12 @@
     @media only screen and (max-width: 367px) {
         font-size: .6em;
     }
+    
+}
+h2 {
+    
+}
+h3 {
     
 }
 .boton {

@@ -1,0 +1,92 @@
+/* home */
+/* .container__presentacion {
+    height: 100vh;
+    text-align: center;
+} */
+.main-contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    .container__presentacion {
+        height: 62vh;
+        padding: .3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;        
+        position: relative;
+    }
+    .container__retrato {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+        .retrato__texto {
+            padding: 0% 10px;
+        }
+        figure {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            img {
+                object-fit: contain;
+                max-width: 90%;            
+            }
+        }
+        .sabermas {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    .container__ilustracion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+        .ilustracion__texto {
+            padding: 0% 10px;
+        }
+        figure {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;        
+            img {
+                object-fit: contain;
+                max-width: 90%;
+            }
+        }
+        .explorar {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    .container__cuaderno {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+        .cuaderno__texto {
+            padding: 0% 10px;
+        }
+        figure {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;        
+            img {
+                object-fit: contain;
+                max-width: 90%;
+            }
+        }        
+        .sabermas {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
