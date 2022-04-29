@@ -87,6 +87,17 @@ footer {
     justify-content: center;
     text-align: center;
     position: relative; }
+    .main-contenedor .container__presentacion a img {
+      animation-name: aumento;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate; }
+
+@keyframes aumento {
+  0% {
+    width: 0%; }
+  100% {
+    width: 20%; } }
   .main-contenedor .container__retrato {
     display: flex;
     flex-direction: column;

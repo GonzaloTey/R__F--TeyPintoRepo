@@ -16,6 +16,24 @@
         justify-content: center;
         text-align: center;        
         position: relative;
+        a {
+            img {
+                
+                animation-name: aumento;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;            
+            }
+            @keyframes aumento {
+                0% {
+                    width: 0%;
+                }
+                100% {
+                    width: 20%;
+                    
+                }
+            }            
+        }
     }
     .container__retrato {        
         display: flex;
