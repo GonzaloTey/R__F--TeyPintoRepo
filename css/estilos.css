@@ -338,8 +338,12 @@ main .container__preguntas-foto {
       margin-top: 150px; } }
 
 /* Estilos generales */
+body {
+  font-family: Montserrat, sans-serif; }
+
 .titulosPrincipales {
   background-color: #c6af90;
+  font-weight: 100;
   color: white;
   position: relative;
   display: flex;
@@ -348,6 +352,15 @@ main .container__preguntas-foto {
   @media only screen and (max-width: 367px) {
     .titulosPrincipales {
       font-size: .6em; } }
+
+p {
+  font-weight: 300; }
+
+h2 {
+  font-weight: 400; }
+
+h3 {
+  font-weight: 400; }
 
 .boton {
   background-color: #c6af90; }
