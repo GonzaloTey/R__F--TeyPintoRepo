@@ -1,8 +1,4 @@
 /* home */
-/* .container__presentacion {
-    height: 100vh;
-    text-align: center;
-} */
 .main-contenedor {
     display: flex;
     flex-direction: column;
@@ -54,7 +50,7 @@
         }
         .sabermas {
             width: 50%;
-            margin: 0 auto;
+            margin: 0 auto;            
         }
         @media only screen and (min-width: 777px) {
             display: grid;
@@ -71,6 +67,16 @@
             }
             .sabermas {
                 grid-area: boton;
+                a {
+                    img {
+                        transform: scale(0.7);
+                        transition: transform 1s;                
+                        &:hover {
+                            transform: scale(1);
+                            /* transition: 1s; */
+                        }
+                    }
+                }
             }
         }
     }
@@ -112,6 +118,16 @@
             }        
             .explorar {
                 grid-area: boton;
+                a {
+                    img {
+                        transform: scale(0.7);
+                        transition: transform 1s;                
+                        &:hover {
+                            transform: scale(1);
+                            /* transition: 1s; */
+                        }
+                    }
+                }
             }
         }
     }
@@ -153,6 +169,16 @@
             }        
             .sabermas {
                 grid-area: boton;
+                a {
+                    img {
+                        transform: scale(0.7);
+                        transition: transform 1s;                
+                        &:hover {
+                            transform: scale(1);
+                            /* transition: 1s; */
+                        }
+                    }
+                }
             }
         }
     }
