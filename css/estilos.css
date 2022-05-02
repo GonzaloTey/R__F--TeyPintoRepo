@@ -88,6 +88,8 @@ footer {
       animation-duration: 2s;
       animation-iteration-count: infinite;
       animation-direction: alternate; }
+      .main-contenedor .container__presentacion a img:hover {
+        animation: none; }
 
 @keyframes aumento {
   0% {
@@ -337,6 +339,7 @@ main .container__preguntas-foto {
       grid-template-rows: 1fr;
       margin-top: 150px; } }
 
+/* Productos */
 /* Estilos generales */
 body {
   font-family: Montserrat, sans-serif; }

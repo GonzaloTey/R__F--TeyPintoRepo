@@ -17,7 +17,10 @@
                 animation-name: aumento;
                 animation-duration: 2s;
                 animation-iteration-count: infinite;
-                animation-direction: alternate;            
+                animation-direction: alternate;
+                &:hover {
+                    animation: none;
+                }            
             }
             @keyframes aumento {
                 0% {
