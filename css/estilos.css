@@ -307,12 +307,16 @@ main .container__preguntas-foto {
           grid-row: 2 / 4;
           padding: 20px; } }
     .tips .container__tips .carruselGon {
-      max-width: 600px; }
+      max-width: 600px;
+      margin: 0 auto; }
       .tips .container__tips .carruselGon .tips__carrusel .carousel-item img {
-        opacity: 80%; }
+        opacity: 50%; }
       .tips .container__tips .carruselGon .tips__carrusel .carousel-item .carousel-caption {
         text-align: center;
         color: black; }
+        @media only screen and (min-width: 800px) {
+          .tips .container__tips .carruselGon .tips__carrusel .carousel-item .carousel-caption {
+            font-size: 1.2em; } }
 
 /* Main sobre mi */
 .sobreMi__container {

@@ -38,14 +38,18 @@
         }
         .carruselGon {
             max-width: 600px;
+            margin: 0 auto;
             .tips__carrusel{
                 .carousel-item {
                     img {
-                        opacity: 80%;
+                        opacity: 50%;
                     }
                     .carousel-caption {
                         text-align: center;
-                        color:black;                
+                        color:black;
+                        @media only screen and (min-width: 800px) {
+                            font-size: 1.2em;
+                        }                
                     }
                 }
             }
