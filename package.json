@@ -1,7 +1,7 @@
 {
   "name": "r__f--teypinto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina dedicada a la venta de Arte",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

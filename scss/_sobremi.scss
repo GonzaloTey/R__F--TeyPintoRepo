@@ -1,8 +1,6 @@
 /* Main sobre mi */
 .sobreMi__container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    @include flex-col;
     text-align: center;
     margin-top: 30px;
     .sobreMi__texto {
@@ -10,9 +8,7 @@
         letter-spacing: 1.8px;
     }
     .sobreMi__foto {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        @include flex-row;
         padding: 2em;
         max-width: 850px;        
         img {

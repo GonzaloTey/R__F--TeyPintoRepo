@@ -1,26 +1,4 @@
 /* Grilla general */
-/* body {
-    min-height: 100vh;
-    display: grid;
-    gap: 3px;
-    
-    grid-template-columns: 1fr;
-    grid-template-rows: 170px 1fr auto;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-    header {
-        grid-area: header;
-    }
-    main {
-        grid-area: main;        
-    }
-    footer {
-        grid-area: footer;
-    }
-
-} */
 body {
   min-height: 100vh;
   display: grid;
@@ -40,6 +18,8 @@ body {
   body footer {
     grid-area: footer; }
 
+/* Mapa */
+/* mixin */
 /* Header */
 .navbar-brand > img {
   width: 150px; }
@@ -209,30 +189,22 @@ footer {
               /* transition: 1s; */ } }
 
 /* main contacto */
-.redes .whats {
+.redes .whats, .redes .insta {
   font-size: 4em;
   color: #25D366; }
-  .redes .whats:hover {
+  .redes .whats:hover, .redes .insta:hover {
     transform: scale(1.3);
     transition: 1s; }
 
 .redes .insta {
-  font-size: 4em;
   color: #405DE6; }
-  .redes .insta:hover {
-    transform: scale(1.3);
-    transition: 1s; }
 
 /* Main de pagina preguntas */
 main .container__preguntas {
   display: flex;
   justify-content: center;
   border: 2px solid black;
-  padding: 5px;
-  /* background-image: url(../assets/img-paginas/labrador.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain; */ }
+  padding: 5px; }
   main .container__preguntas ul li {
     list-style-type: disc;
     font-size: 1.1em;
@@ -322,7 +294,7 @@ main .container__preguntas-foto {
 .sobreMi__container {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 30px; }
   .sobreMi__container .sobreMi__texto {

@@ -2,18 +2,15 @@
 .redes {
     .whats{
         font-size: 4em;
-        color: #25D366;
+        color: map-get($redes , whatsapp);
         &:hover {
             transform:scale(1.3);
             transition: 1s;
         }
     }
     .insta {
-        font-size: 4em;
-        color: #405DE6;
-        &:hover {
-            transform: scale(1.3);
-            transition: 1s;
-        }
+        @extend .whats;
+        color: map-get($redes, instagram);
     }
 }
+
