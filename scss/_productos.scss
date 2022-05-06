@@ -29,11 +29,15 @@ main {
                 a {
                     color: #000;
                     display: block;
+                    scroll-behavior: smooth;
                 }   
             }
             .boton--info {
                 background-color: $verde-claro;
-                background: linear-gradient(to right, $verde , $verde-claro);               
+                background: linear-gradient(to right, $verde , $verde-claro);
+                a {
+                    scroll-behavior: smooth;
+                }               
             }           
         }
         .container__productos--ilustracion {

@@ -342,10 +342,13 @@ main .container__productos {
       border-radius: 1em; }
       main .container__productos .container__productos--retrato button a, main .container__productos .container__productos--ilustracion button a, main .container__productos .container__productos--cuaderno button a {
         color: #000;
-        display: block; }
+        display: block;
+        scroll-behavior: smooth; }
     main .container__productos .container__productos--retrato .boton--info, main .container__productos .container__productos--ilustracion .boton--info, main .container__productos .container__productos--cuaderno .boton--info {
       background-color: #a4a391;
       background: linear-gradient(to right, #53503f, #a4a391); }
+      main .container__productos .container__productos--retrato .boton--info a, main .container__productos .container__productos--ilustracion .boton--info a, main .container__productos .container__productos--cuaderno .boton--info a {
+        scroll-behavior: smooth; }
   @media only screen and (min-width: 800px) {
     main .container__productos {
       display: flex;
@@ -371,7 +374,8 @@ main .container__informacion {
 
 /* Estilos generales */
 body {
-  font-family: Montserrat, sans-serif; }
+  font-family: Montserrat, sans-serif;
+  scroll-behavior: smooth; }
 
 .titulosPrincipales {
   background-color: #c6af90;
