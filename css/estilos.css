@@ -316,6 +316,55 @@ main .container__preguntas-foto {
       margin-top: 150px; } }
 
 /* Productos */
+main .container__productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto; }
+  main .container__productos .container__productos--retrato, main .container__productos .container__productos--ilustracion, main .container__productos .container__productos--cuaderno {
+    border: 0.1px solid #c6af90;
+    border-radius: 2%;
+    margin: 2em 1.5em;
+    background: linear-gradient(145deg, #f0f0f0, #f2f0e3);
+    box-shadow: 19px 19px 38px #bebebe, -19px -19px 38px #ffffff; }
+    main .container__productos .container__productos--retrato figure, main .container__productos .container__productos--ilustracion figure, main .container__productos .container__productos--cuaderno figure {
+      width: 90%;
+      margin: 1em auto;
+      border-bottom: 1.5px solid #c6af90; }
+    main .container__productos .container__productos--retrato h3, main .container__productos .container__productos--ilustracion h3, main .container__productos .container__productos--cuaderno h3 {
+      text-align: center; }
+    main .container__productos .container__productos--retrato button, main .container__productos .container__productos--ilustracion button, main .container__productos .container__productos--cuaderno button {
+      width: 50%;
+      padding: .5em;
+      margin-left: 25%;
+      margin-bottom: 1em;
+      border-radius: 1em; }
+      main .container__productos .container__productos--retrato button a, main .container__productos .container__productos--ilustracion button a, main .container__productos .container__productos--cuaderno button a {
+        color: #000;
+        display: block; }
+    main .container__productos .container__productos--retrato .boton--info, main .container__productos .container__productos--ilustracion .boton--info, main .container__productos .container__productos--cuaderno .boton--info {
+      background-color: #a4a391;
+      background: linear-gradient(to right, #53503f, #a4a391); }
+  @media only screen and (min-width: 800px) {
+    main .container__productos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; } }
+
+main .container__informacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em; }
+  main .container__informacion .container__informacion--retrato, main .container__informacion .container__informacion--ilustracion, main .container__informacion .container__informacion--cuaderno {
+    border-bottom: 1.5px solid #c6af90; }
+    main .container__informacion .container__informacion--retrato h2, main .container__informacion .container__informacion--ilustracion h2, main .container__informacion .container__informacion--cuaderno h2 {
+      letter-spacing: 2px;
+      margin-left: 8px; }
+    main .container__informacion .container__informacion--retrato p, main .container__informacion .container__informacion--ilustracion p, main .container__informacion .container__informacion--cuaderno p {
+      padding: 8px; }
+
 /* Estilos generales */
 body {
   font-family: Montserrat, sans-serif; }

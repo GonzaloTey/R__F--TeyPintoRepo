@@ -1,1 +1,69 @@
 /* Productos */
+main {
+    .container__productos {
+        @include flex-col;
+        max-width: 1400px;
+        margin: 0 auto;
+        .container__productos--retrato{
+            border: .1px solid $marron-claro;
+            border-radius: 2%;
+            margin: 2em 1.5em;            
+            background: linear-gradient(145deg, #f0f0f0, $crema);
+            box-shadow: 19px 19px 38px #bebebe,
+            -19px -19px 38px #ffffff;
+            
+            figure {
+                width: 90%;
+                margin: 1em auto;
+                border-bottom: 1.5px solid $marron-claro;
+            }
+            h3 {
+                text-align: center;
+            }
+            button {
+                width: 50%;
+                padding: .5em;
+                margin-left: 25%;
+                margin-bottom: 1em;
+                border-radius: 1em;
+                a {
+                    color: #000;
+                    display: block;
+                }   
+            }
+            .boton--info {
+                background-color: $verde-claro;
+                background: linear-gradient(to right, $verde , $verde-claro);               
+            }            
+        }
+        .container__productos--ilustracion {
+            @extend .container__productos--retrato;
+        }
+        .container__productos--cuaderno {
+            @extend .container__productos--retrato;
+        }
+        @media only screen and (min-width: 800px) {
+            @include flex-row;            
+        }
+    }
+    .container__informacion {
+        @include flex-col;
+        gap: 2em;
+        .container__informacion--retrato {
+            border-bottom: 1.5px solid $marron-claro;
+            h2 {
+                letter-spacing: 2px;
+                margin-left: 8px;
+            }
+            p {
+                padding: 8px;
+            }
+        }
+        .container__informacion--ilustracion {
+            @extend .container__informacion--retrato;
+        }
+        .container__informacion--cuaderno {
+            @extend .container__informacion--retrato;
+        }
+    }
+}
