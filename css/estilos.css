@@ -363,7 +363,11 @@ main .container__informacion {
       letter-spacing: 2px;
       margin-left: 8px; }
     main .container__informacion .container__informacion--retrato p, main .container__informacion .container__informacion--ilustracion p, main .container__informacion .container__informacion--cuaderno p {
-      padding: 8px; }
+      padding: 8px;
+      text-align: start; }
+    @media only screen and (min-width: 800px) {
+      main .container__informacion .container__informacion--retrato, main .container__informacion .container__informacion--ilustracion, main .container__informacion .container__informacion--cuaderno {
+        padding: 3em; } }
 
 /* Estilos generales */
 body {
